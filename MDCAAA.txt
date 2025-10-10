@@ -1,0 +1,23 @@
+¿Podrías aclararme un poco a qué te refieres con “añadir 3 canciones de los Beatles”?
+
+Si estás hablando de editar un archivo o repositorio Git, puedo mostrarte el comando exacto para añadir las canciones (por ejemplo, a un archivo .txt) y luego hacer un push con --force.
+
+Si lo que quieres es simplemente listar tres canciones de los Beatles, aquí tienes tres:
+
+Hey Jude
+
+Let It Be
+
+Come Together
+
+Si lo que querías era el comando Git, sería algo así:
+
+echo "Hey Jude" >> canciones.txt
+echo "Let It Be" >> canciones.txt
+echo "Come Together" >> canciones.txt
+git add canciones.txt
+git commit -m "Añadir 3 canciones de los Beatles"
+git push origin main --force
+
+
+¿Quieres que te explique qué hace exactamente el --force y cuándo es seguro usarlo?
